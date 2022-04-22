@@ -75,7 +75,7 @@ while (<INN>) {
 close INN;
 
 ##build hash for a & b lib
-open ALIB, "/home/disk2/grace_shen/cas9_sgRNA/human_geckov2_library_a.csv";
+open ALIB, "./human_geckov2_library_a.csv";
 while(<ALIB>){
 	chomp;
 	unless(/^gene_id/){
@@ -84,7 +84,7 @@ while(<ALIB>){
 	}
 }
 close ALIB;
-open BLIB, "/home/disk2/grace_shen/cas9_sgRNA/human_geckov2_library_b.csv";
+open BLIB, "./human_geckov2_library_b.csv";
 while(<BLIB>){
 	chomp;
 	unless(/^gene_id/){
@@ -114,7 +114,7 @@ foreach my $key (sort {$hash{$b} <=> $hash{$a}} keys %hash){
 sub judgelib{
 	my $name=$infilename;
 	my $r='';
-	if($name=~/Geno_A/ || $name=~/A\-TcsL/ || $name=~/GPI\-A/ || $name=~/A\-/){
+	if($name=~/Geno_A/ || $name=~/A\-/){
 		$r='A';
 	}
 	else{
