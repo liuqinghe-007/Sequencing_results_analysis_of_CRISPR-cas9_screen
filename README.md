@@ -21,6 +21,6 @@
 2. STEP1_OUTPUTDIR and STEP2_OUTPUTDIR are **folder paths** which store output files.
 3. Check your file designation: trimmed_raw_reads1.fq.gz and trimmed_raw_reads2.fq.gz should be named **start with "A-" or "B-"** otherwise **total_numbers_from_fq_file.pl** will process data incorrectly.  
 
-Finally, thank you for using this pakage!   
+*Finally, thank you for using this pakage!*
 
-<center>![thank you for using this pakage!](https://raw.githubusercontent.com/liuqinghe-007/Sequencing_results_analysis_of_CRISPR-cas9_screen/main/cell_addwatermark.png)</center>   
+<div align=center><img src="https://raw.githubusercontent.com/liuqinghe-007/Sequencing_results_analysis_of_CRISPR-cas9_screen/main/cell_addwatermark.png"></div>
