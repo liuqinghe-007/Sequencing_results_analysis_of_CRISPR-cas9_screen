@@ -23,4 +23,4 @@
 
 Finally, thank you for using this pakage!   
 
-![thank you for using this pakage!](https://raw.githubusercontent.com/liuqinghe-007/Sequencing_results_analysis_of_CRISPR-cas9_screen/main/cell_addwatermark.png)   
+<center>![thank you for using this pakage!](https://raw.githubusercontent.com/liuqinghe-007/Sequencing_results_analysis_of_CRISPR-cas9_screen/main/cell_addwatermark.png)</center>   
